@@ -1,0 +1,12 @@
+{
+  "name": "color-pr",
+  "version": "1.0",
+  "description": "Make PR status more visible",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/pulls**"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
